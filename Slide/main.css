@@ -1,0 +1,22 @@
+body {
+  background-color: rgba(159,195,192,0.45);
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  padding: 2%;
+  top: 50%;
+}
+
+.prev {
+  left: 5%;
+}
+
+.next {
+  right: 5%;
+}
+
+.prev:hover, .next:hover {
+  color: white !important;
+}
